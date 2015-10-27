@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".event_details" >
         </activity>
+        <activity android:name=".splash_screen" >
+        </activity>
     </application>
 
 </manifest>
