@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class event_details extends AppCompatActivity {
 TextView textView2;
+    TextView textView3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,22 @@ TextView textView2;
 
             }
         });
+
+
+        textView3 = (TextView) findViewById(R.id.textView3);
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent a = new Intent(event_details.this, Agenda.class);
+                startActivity(a);
+
+                finish();
+
+
+            }
+        });
+
 
 
     }
