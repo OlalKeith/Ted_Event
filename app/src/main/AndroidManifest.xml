@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".Speakers" >
         </activity>
+        <activity android:name=".Agenda" >
+        </activity>
     </application>
 
 </manifest>
