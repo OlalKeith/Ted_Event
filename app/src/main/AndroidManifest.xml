@@ -23,6 +23,11 @@
         </activity>
         <activity android:name=".Agenda" >
         </activity>
+        <activity
+            android:name=".twitterfeed"
+            android:label="@string/title_activity_twitterfeed"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
