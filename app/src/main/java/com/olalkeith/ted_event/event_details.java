@@ -7,24 +7,26 @@ import android.view.View;
 import android.widget.TextView;
 
 public class event_details extends AppCompatActivity {
-TextView textView;
+TextView textView2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_details);
 
-        textView = (TextView) findViewById(R.id.textView);
-        textView.setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View v) {
-
-                                        }
-                                    });
+        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
                 Intent a = new Intent(event_details.this, Speakers.class);
-        startActivity(a);
+                startActivity(a);
 
-        finish();
+                finish();
+
+
+            }
+        });
+
 
     }
 }
