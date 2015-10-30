@@ -22,7 +22,7 @@ TextView textView2;
             @Override
             public void onClick(View v) {
 
-                Intent a = new Intent(event_details.this, Speakers.class);
+                Intent a = new Intent(event_details.this, speakers.class);
                 startActivity(a);
 
                 finish();
