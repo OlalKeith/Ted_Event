@@ -9,7 +9,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.olalkeith.ted_event.info"
     android:weightSum="1"
-    android:backgroundTint="#1c1717"
+
+    android:background="@drawable/good"
     android:focusable="false">
 
     <LinearLayout
@@ -27,8 +28,8 @@
         android:layout_above="@+id/button5"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout"
-        android:background="#10ffffff"
-        android:textColor="#fff" />
+        android:background="#fdffffff"
+        android:textColor="#0c0b0b" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -38,7 +39,7 @@
         android:id="@+id/button5"
         android:layout_above="@+id/button6"
         android:layout_centerHorizontal="true"
-        android:background="#10ffffff"
+        android:background="#41ffffff"
         android:textColor="#fff" />
 
     <Button
@@ -50,7 +51,7 @@
         android:layout_above="@+id/button7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#10ffffff"
+        android:background="#41ffffff"
         android:textColor="#fff" />
 
     <Button
@@ -62,7 +63,7 @@
         android:layout_alignBottom="@+id/linearLayout"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#10ffffff"
+        android:background="#41ffffff"
         android:textColor="#fff" />
 
     <Button
@@ -74,7 +75,7 @@
         android:layout_above="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#10ffffff"
+        android:background="#41ffffff"
         android:textColor="#fff" />
 
     <TextView
@@ -93,10 +94,5 @@
         android:typeface="monospace"
         android:visibility="visible" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/Zaal"/>
 
 </RelativeLayout>
