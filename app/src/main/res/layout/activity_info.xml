@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.olalkeith.ted_event.info"
     android:weightSum="1"
-    android:backgroundTint="#1c1717">
+    android:backgroundTint="#1c1717"
+    android:focusable="false">
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,7 +27,8 @@
         android:layout_above="@+id/button5"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout"
-        android:background="#F50A25" />
+        android:background="#10ffffff"
+        android:textColor="#fff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -37,7 +38,8 @@
         android:id="@+id/button5"
         android:layout_above="@+id/button6"
         android:layout_centerHorizontal="true"
-        android:background="#fff" />
+        android:background="#10ffffff"
+        android:textColor="#fff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -48,7 +50,8 @@
         android:layout_above="@+id/button7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#F50A25" />
+        android:background="#10ffffff"
+        android:textColor="#fff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -59,7 +62,8 @@
         android:layout_alignBottom="@+id/linearLayout"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#fff" />
+        android:background="#10ffffff"
+        android:textColor="#fff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -70,7 +74,8 @@
         android:layout_above="@+id/button4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#fff" />
+        android:background="#10ffffff"
+        android:textColor="#fff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -82,6 +87,16 @@
         android:layout_marginTop="63dp"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_alignRight="@+id/button8"
-        android:layout_alignEnd="@+id/button8" />
+        android:layout_alignEnd="@+id/button8"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:typeface="monospace"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/Zaal"/>
 
 </RelativeLayout>
