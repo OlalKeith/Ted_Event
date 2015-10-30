@@ -10,6 +10,8 @@ public class event_details extends AppCompatActivity {
 TextView textView2;
     TextView textView3;
     TextView textView4;
+    TextView textView5;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +60,19 @@ TextView textView2;
             }
         });
 
+        textView5 = (TextView) findViewById(R.id.textView5);
+        textView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent a = new Intent(event_details.this, twitterfeed.class);
+                startActivity(a);
+
+                finish();
+
+
+            }
+        });
 
 
 
