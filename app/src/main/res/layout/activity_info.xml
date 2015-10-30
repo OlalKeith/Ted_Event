@@ -28,8 +28,8 @@
         android:layout_above="@+id/button5"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout"
-        android:background="#fdffffff"
-        android:textColor="#0c0b0b" />
+        android:background="#41ffffff"
+        android:textColor="#fff" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -92,7 +92,8 @@
         android:textAlignment="center"
         android:textSize="35dp"
         android:typeface="monospace"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:textColor="#fff" />
 
 
 </RelativeLayout>
