@@ -28,6 +28,8 @@
             android:label="@string/title_activity_twitterfeed"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity android:name=".info" >
+        </activity>
     </application>
 
 </manifest>
