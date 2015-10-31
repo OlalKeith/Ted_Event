@@ -53,6 +53,17 @@ TextView textView;
         });
 
 
+        button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, event_details.class);
+                startActivity(a);
+
+                finish();
+            }
+        });
+
 
 
 
