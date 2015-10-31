@@ -10,6 +10,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 TextView textView;
     Button button;
+    Button button2;
+    Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +39,22 @@ TextView textView;
                 finish();
             }
         });
+
+
+        button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(MainActivity.this, event_details.class);
+                startActivity(a);
+
+                finish();
+            }
+        });
+
+
+
+
 
     }
 }
