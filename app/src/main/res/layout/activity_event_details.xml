@@ -22,7 +22,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="62dp"
         android:textColor="#fff"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:typeface="serif" />
 
     <TextView
@@ -35,7 +35,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textColor="#fff"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:typeface="serif" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:text="Twitter Feeds"
         android:id="@+id/textView4"
         android:textColor="#a81b2bd7"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:typeface="serif" />
@@ -60,6 +60,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="93dp"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:typeface="serif" />
 </RelativeLayout>

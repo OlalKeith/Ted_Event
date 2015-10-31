@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 public class info extends AppCompatActivity {
 Button button4;
+    Button button5;
+    Button button6;
+    Button button7;
+    Button button8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,4 +32,65 @@ Button button4;
             }
 
         });
-    }}
+
+        button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent a = new Intent(info.this, wifi.class);
+                startActivity(a);
+
+                finish();
+
+            }
+
+        });
+
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent a = new Intent(info.this, wifi.class);
+                startActivity(a);
+
+                finish();
+
+            }
+
+        });
+
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent a = new Intent(info.this, wifi.class);
+                startActivity(a);
+
+                finish();
+
+            }
+
+        });
+
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent a = new Intent(info.this, wifi.class);
+                startActivity(a);
+
+                finish();
+
+            }
+
+        });
+    }
+}
